@@ -3,36 +3,36 @@ package model.dao.impl;
 import java.util.List;
 
 import model.dao.DepartamentDao;
-import model.entities.Departament;
+import model.entities.Department;
 
 public class DepartamentDaoJDBC implements DepartamentDao{
 
 	@Override
-	public void insert(Departament obj) {
+	public void insert(Department obj) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void update(Departament departament) {
+	public void update(Department departament) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void deleteById(Departament obj) {
+	public void deleteById(Department obj) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public Departament findById(Departament obj) {
+	public Department findById(Department obj) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Departament> findAll() {
+	public List<Department> findAll() {
 		// TODO Auto-generated method stub
 		return null;
 	}

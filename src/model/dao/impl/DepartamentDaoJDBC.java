@@ -20,13 +20,13 @@ public class DepartamentDaoJDBC implements DepartamentDao{
 	}
 
 	@Override
-	public void deleteById(Department obj) {
+	public void deleteById(Integer id) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public Department findById(Department obj) {
+	public Department findById(Integer id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -36,5 +36,6 @@ public class DepartamentDaoJDBC implements DepartamentDao{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
 
 }
